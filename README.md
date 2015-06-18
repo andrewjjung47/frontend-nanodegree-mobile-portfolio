@@ -21,9 +21,11 @@
 
 ### Changes that I've made for part 2
 <ul>
-  <li>Reduced the number of <tt>mover</tt> class elements to 40 since only three to five rows are displayed.</li>
+  <li>Reduced the number of <tt>mover</tt> class elements to how many pizzas can fit in a screen.</li>
   <li>In <tt>changePizzaSizes</tt>, calculated <tt>newwidth</tt> only once since all the elements use the same new width. </li>
   <li>Refactored <tt>updatePositions</tt> so that DOM elements are only accessed once outside of the for loop.</li>
+  <li>Use <tt>translateX</tt> in <tt>updatePositions</tt> to move pizzas.</li>
+  <li>Access elements using <tt>getElementsByClassName</tt> or <tt>getElementsById</tt> instead of <tt>querySelectorAll</tt></li>
 </ul>
 
 
