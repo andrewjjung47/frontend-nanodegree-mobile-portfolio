@@ -551,5 +551,4 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.left = (i % cols) * s + 'px';
     document.getElementById("movingPizzas1").appendChild(elem);
   }
-  updatePositions();
 });
